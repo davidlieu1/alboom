@@ -5,15 +5,15 @@ function Navigation(){
     return(
         <header className={classes.header}>
             <div className={classes.logo}>
-                <Link to='/'>alboom</Link>
+                <Link to='/alboom/'>alboom</Link>
             </div>
             <nav>
                 <ul>
                     <li>
-                        <Link to='/first'> first</Link>
+                        <Link to='/alboom/first'> first</Link>
                     </li>
                     <li>
-                        <Link to='/second'> second</Link>
+                        <Link to='/alboom/second'> second</Link>
                     </li>
                 </ul>
             </nav>

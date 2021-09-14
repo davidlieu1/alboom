@@ -11,13 +11,13 @@ function App() {
     <div>
       <Navigation/>
       <Switch>
-        <Route path='/' exact={true}>
+        <Route path='/alboom/' exact={true}>
           <HomePage/>
         </Route>
-        <Route path='/first'>
+        <Route path='/alboom/first'>
           <FirstPage/>
         </Route>
-        <Route path='/second'>
+        <Route path='/alboom/second'>
           <SecondPage/>
         </Route>
       </Switch>
